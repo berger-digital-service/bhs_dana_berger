@@ -64,11 +64,19 @@
   .header-row{display:flex;align-items:center;justify-content:space-between;}
   .brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
   .brand-mark{
-    width:38px;height:38px;border-radius:11px;
-    background:linear-gradient(145deg,var(--ink) 0%, #243155 100%);
-    display:flex;align-items:center;justify-content:center;
-    box-shadow:var(--shadow-sm);
-  }
+    width:52px;
+    height:52px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:none;
+}
+
+.brand-mark img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
   .brand-mark svg{width:20px;height:20px;}
   .brand-name{font-family:'Sora',sans-serif;font-weight:700;font-size:1.08rem;color:var(--ink);}
   .brand-name small{display:block;font-family:'Inter',sans-serif;font-weight:500;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--slate);margin-top:1px;}
@@ -337,7 +345,7 @@
   <div class="wrap header-row">
     <a href="#top" class="brand">
       <span class="brand-mark">
-       <img src="images/fav.ico" alt="BHS Berger Logo" class="w-8 h-8" />
+       <img src="images/Logo.png" alt="BHS Berger Logo" class="w-8 h-8" />
       </span>
       <span class="brand-name">BHS Berger<small>Buchhaltungsservice</small></span>
     </a>
@@ -366,16 +374,19 @@
     <div class="blob"></div>
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow"><span class="dot"></span>Seit über 20 Jahren in Eckartsberga</div>
-        <h1>Ihre Zahlen, <em>geordnet</em>. Ihr Kopf, frei für das Geschäft.</h1>
-        <p class="lead">BHS Berger übernimmt die laufende Buchhaltung für Betriebe aus Bau, Umwelt und Energie — sorgfältig sortiert, klar kontiert und in enger Abstimmung mit Ihrem Steuerberater.</p>
+        <div class="eyebrow"><span class="dot"></span>Seit über 5 Jahren in Eckartsberga</div>
+        <h1>
+  Ihre Zahlen, <em>geordnet</em>.,<br> Ihr Kopf,<br>
+  <em>frei für das Geschäft.</em>
+</h1>
+        <p class="lead">BHS Berger übernimmt die laufende Buchhaltung für Betriebe aus Bau, Automobil und anderen Branchen — sorgfältig sortiert, klar  und in enger Abstimmung.</p>
         <div class="hero-ctas">
           <a href="#contact" class="btn btn-primary">Kostenloses Erstgespräch</a>
           <a href="#services" class="btn btn-ghost">Leistungen ansehen</a>
         </div>
         <div class="trust-row">
           <div class="trust-item"><b>20+</b><span>Jahre Erfahrung</span></div>
-          <div class="trust-item"><b>3</b><span>Branchenfokus: Bau, Umwelt, Energie</span></div>
+          <div class="trust-item"><b>8h</b><span>jeden Wochentag von 08:00 - 16:00 Uhr</span></div>
           <div class="trust-item"><b>100%</b><span>mobil oder vor Ort</span></div>
         </div>
       </div>
@@ -526,7 +537,8 @@
           </div>
           <div class="info-card reveal">
             <h4>Telefon &amp; Mobil</h4>
-            <p>034467 – 20 14 2 · Mobil 0170 53 41 66 3</p>
+            <p>Telefon: 034467 20142</p>
+            <p>Mobil:   0170 5341663</p>
           </div>
           <div class="info-card reveal">
             <h4>E-Mail</h4>
@@ -547,10 +559,10 @@
     <div class="footer-top">
       <div>
         <a href="#top" class="brand" style="margin-bottom:14px;">
-          <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#FBF6EE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="brand-mark"><img src="images/Logo.png" alt="BHS Berger Logo" class="w-8 h-8" /></span>
           <span class="brand-name">BHS Berger</span>
         </a>
-        <p style="color:var(--slate);font-size:0.9rem;max-width:280px;margin-top:10px;">Persönlicher Buchhaltungsservice für Bau, Umwelt und Energie in Eckartsberga und Umgebung.</p>
+        <p style="color:var(--slate);font-size:0.9rem;max-width:280px;margin-top:10px;">Persönlicher Buchhaltungsservice </p>
       </div>
       <div class="footer-links">
         <div class="footer-col">
